@@ -36,5 +36,37 @@ Develop C# code in files with extension .cs.
 Use the csc command line utility to compile the C# code. 
 Execute the Application by dbl-clk the Exe that is generated.  
 
+# How to work in VS code?
+1. After setting the Environment variable, restart the machine. 
+2. open the folder in VS Code. 
+3. Develop your C# code 
+4. open the terminal by pressing Ctrl+`
+5. Run the cmd: csc filename.cs to compile the file 
+6. Run the Exe by typing the Exe name 
+
+# C# Coding Syntax 
+1. Files are saved wth extension .cs 
+2. Entry point for the C# Program will be a class with a static function by name [Main]. static makes the function callable by the name of the class instead of the object. 
+3. Every statement is ended with a ;
+4. Main function will return either void or int. 
+5. Main can take string array as args. No other kind of arguments can be passed. 
+6. UR Program starts with Main function and ends when the Main returns/exits. 
+7. For better readability and modularity, we create classes, functions and call them directly or indirectly in the Main function.
+
+
+# Basic IO functions of C#
+Console class is used to perform inputs and output operations on the Console window. 
+It is a static class, where functions of the class will be invoked thru' the name of the class instead of an object.
+WriteLine method is used to write content on the Console Output Window. 
+Write method which does similarly but without a carrier return. 
+
+For inputs from the User, we use Console.ReadLine method. This method returns a string which would be the input given by the user. 
+
+
+
+
+
+
+
 
 
