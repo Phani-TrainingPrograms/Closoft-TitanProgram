@@ -30,6 +30,11 @@ It also contains Tools and Compilers to develop .NET Apps.
 # How to create a C# Hello world program?
 U can use IDE (VS 2022 or later) or Command line terminal(CMD) to develop this program.
 A Text Editor is good enough to write the code. 
-U can set the Environment variable to allow C# Compiler to compile the code from any location using the terminal(CMD Prompt).
+U can set the Environment variable to your account to allow C# Compiler to compile the code from any location using the terminal(CMD Prompt).
+Create a folder where you should place your code. 
+Develop C# code in files with extension .cs.
+Use the csc command line utility to compile the C# code. 
+Execute the Application by dbl-clk the Exe that is generated.  
+
 
 
