@@ -1,0 +1,35 @@
+Prerequisites for the Course: 
+1. Windows OS 
+2. Visual Studio 2022 or later. 
+3. User shall have rights to edit Environment variables. 
+4. SQL server 2019 or later. (For Databases).
+5. Github access to allow users to save data in Github. 
+6. Text Editor like VS code or notepad++. 
+
+
+# What is .NET?
+Its a platform for developing various kinds of apps that can run on multiple platforms like Windows (Primarily), Linux and MacOS.
+Developed since 2002, .NET provides a common platform with multi language support. 
+.NET can be installed on any OS.  U need to visit the MS site to download the .NET in your machine. 
+Windows OS since 2007, by default comes with .NET installed in it .  
+Available in the Windows directory of the OS. 
+
+# What is C#?
+C# is a  programming language like C/C++, Java which is used specifically to work with .NET.  It works similar to C++. Its object oriented and very easy to implement. 
+.NET when installed, comes with C# compiler that U can use to create basic C# apps. 
+However, to create robust industrial required Apps, U should have Visual Studio IDE. This IDE developed by MS can be used with lot of advanced features like mapping to Cloud Environment, Debugging Enviroment and performance monitoring features. It also supports intellisense that helps in developing the apps faster. 
+
+# What is available in .NET?
+.NET is a platform on which UR Apps will be created, executed. It contains an Execution Environment which is optimized to work on multiple architectures. This Environment is called as .NET CLR(Common Language Runtime). 
+.NET comes with class libraries in the form of DLLs that contains ready to use classes thru which U can build applications. 
+As programmers, we consume these classes by including them in our project workspace and using their namespaces. 
+For File IO operations, we have System.IO dll that contains APIs for file related operations. 
+For Database programming, we have System.Data.SQLClient.dll that contains APIs for DB operations. 
+It also contains Tools and Compilers to develop .NET Apps. 
+
+# How to create a C# Hello world program?
+U can use IDE (VS 2022 or later) or Command line terminal(CMD) to develop this program.
+A Text Editor is good enough to write the code. 
+U can set the Environment variable to allow C# Compiler to compile the code from any location using the terminal(CMD Prompt).
+
+
