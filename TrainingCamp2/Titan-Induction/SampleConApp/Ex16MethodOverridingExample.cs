@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 //Method overriding is modifying a base class function in the dirived class. 
 //Method overriding leads to runtime polymorphism. Same function with the same object will behave in different manner.
@@ -21,8 +21,17 @@ namespace SampleConApp
         }
     }
 
+    /// <summary>
+    /// Helper class creaeted to implement Factory pattern on objects. 
+    /// </summary>
     class Activator
     {
+        /// <summary>
+        /// Gets the object of the Base class depending on the type asked form
+        /// </summary>
+        /// <param name="type">The type could be Base or Sub</param>
+        /// <returns>An instantiated object</returns>
+        /// <exception cref="Exception">When invalid type is sent as parameter</exception>
         public static BaseClass GetObject(string type)
         {
             if(type == "Base")
