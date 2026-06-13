@@ -71,7 +71,7 @@ namespace EMS.UI
                 switch(choice)
                 {
                     case "1":
-                        processAddingFeature();
+                        ProcessAddingFeature();
                         return true;
                     case "2":
                         displayRecordsFeature();
@@ -92,7 +92,7 @@ namespace EMS.UI
                 }
             }
 
-            private static void processAddingFeature()
+            private static void ProcessAddingFeature()
             {
                 Employee record = new Employee();
                 record.EmpId = 123;

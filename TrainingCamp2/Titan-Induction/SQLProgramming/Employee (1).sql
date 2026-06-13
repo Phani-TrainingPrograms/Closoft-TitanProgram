@@ -1,13 +1,4 @@
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (1, 'Shepard Eastcourt', 'Hyderabad', '2777205996', 2);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (2, 'Zorina Bullin', 'Mumbai', '5141229894', 3);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (3, 'Arlene Smout', 'Nagpur', '7498919887', 3);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (4, 'Fern Housecraft', 'Bangalore', '3874778177', 3);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (5, 'Emory Clohisey', 'Hyderabad', '2039777874', 3);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (6, 'Jasen Vila', 'Madurai', '3668653759', 1);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (7, 'Elisabetta Steet', 'Nagpur', '3189035314', 1);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (8, 'Jinny Heeron', 'Nagpur', '2115027714', 3);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (9, 'Duff Lindermann', 'Bangalore', '3385036226', 3);
-insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (10, 'Rebekah Thrasher', 'Mysore', '4004484126', 3);
+
 insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (11, 'Alessandra Quant', 'Nagpur', '9824461687', 1);
 insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (12, 'Thain Moir', 'Nagpur', '8836530876', 2);
 insert into Employee (Id, FullName, Address, MobileNo, Deptid) values (13, 'Ambrosi Chamberlaine', 'Nagpur', '9244160195', 1);

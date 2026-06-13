@@ -34,10 +34,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleConApp.UnderstandingObjects</StartupObject>
+    <StartupObject>SampleConApp.Ex23GarbageCollectionDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,15 +48,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleUtil.cs" />
     <Compile Include="Ex02BasicIO.cs" />
     <Compile Include="Ex03DataTypes.cs" />
     <Compile Include="Ex04ConditionalStatements.cs" />
-    <Compile Include="Ex05ObjectType.cs" />
+    <Compile Include="Ex06Functions.cs" />
+    <Compile Include="Ex08Arrays.cs" />
+    <Compile Include="Ex07OutRefParameters.cs" />
+    <Compile Include="Ex09Generics.cs" />
+    <Compile Include="Ex10EmpManagerExample.cs" />
+    <Compile Include="Ex12QueueExample.cs" />
+    <Compile Include="Ex13ExceptionHandlingDemo.cs" />
+    <Compile Include="Ex14ClassesAndObjecs.cs" />
+    <Compile Include="Ex15InheritanceDemo.cs" />
+    <Compile Include="Ex16MethodOverridingExample.cs" />
+    <Compile Include="Ex17AbstractClasses.cs" />
+    <Compile Include="Ex18PracticalAbsClassExample.cs" />
+    <Compile Include="Ex19InterfaceExample.cs" />
+    <Compile Include="Ex20DBProgram.cs" />
+    <Compile Include="Ex22TaskProgramming.cs" />
+    <Compile Include="Ex21MultiThreading.cs" />
+    <Compile Include="Ex23GarbageCollectionDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ex11DictionaryExample.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseClassLib\BaseClassLib.csproj">
+      <Project>{efc26def-1670-45af-b304-dd3b46629b8d}</Project>
+      <Name>BaseClassLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

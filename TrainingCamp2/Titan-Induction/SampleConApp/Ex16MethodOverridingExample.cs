@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 //Method overriding is modifying a base class function in the dirived class. 
 //Method overriding leads to runtime polymorphism. Same function with the same object will behave in different manner.

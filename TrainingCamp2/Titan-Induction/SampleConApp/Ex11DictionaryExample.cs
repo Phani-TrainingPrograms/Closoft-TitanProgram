@@ -17,6 +17,12 @@ namespace SampleConApp
     class Ex11DictionaryExample
     {
         static Dictionary<string, string> users = new Dictionary<string, string>();
+
+        /// <summary>
+        /// Adds a new user to the System
+        /// </summary>
+        /// <param name="username">UserName to add</param>
+        /// <param name="password">Password to add</param>
         static void AddUser(string username, string password)
         {
             if(users.ContainsKey(username))
@@ -62,9 +68,9 @@ namespace SampleConApp
                 {
                     case "1": processLogin(); break;
                     case "2": processSignIn(); break;
-                    _:
-                        Console.WriteLine("Invalid Choice");
-                        return;//exits the function...
+                   default: 
+                        Console.WriteLine("Invalid choice");
+                        return;
                 }
             } while(true);
         }
