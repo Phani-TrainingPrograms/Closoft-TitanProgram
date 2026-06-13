@@ -52,7 +52,7 @@
             this.lblTitle.Location = new System.Drawing.Point(307, 16);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(313, 24);
+            this.lblTitle.Size = new System.Drawing.Size(398, 29);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Welcome to Windows Programming";
             // 
@@ -61,7 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(183, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 24);
+            this.label1.Size = new System.Drawing.Size(186, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Enter the Name:";
             // 
@@ -70,7 +70,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(164, 187);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 24);
+            this.label2.Size = new System.Drawing.Size(210, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Enter the Address:";
             // 
@@ -79,7 +79,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(152, 262);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(178, 24);
+            this.label3.Size = new System.Drawing.Size(227, 29);
             this.label3.TabIndex = 3;
             this.label3.Text = "Enter the MobileNo:";
             // 
@@ -87,7 +87,7 @@
             // 
             this.txtName.Location = new System.Drawing.Point(344, 132);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(395, 28);
+            this.txtName.Size = new System.Drawing.Size(395, 34);
             this.txtName.TabIndex = 2;
             this.toolTip1.SetToolTip(this.txtName, "Name please!");
             // 
@@ -95,14 +95,14 @@
             // 
             this.txtAddress.Location = new System.Drawing.Point(344, 196);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(395, 28);
+            this.txtAddress.Size = new System.Drawing.Size(395, 34);
             this.txtAddress.TabIndex = 3;
             // 
             // txtMobile
             // 
             this.txtMobile.Location = new System.Drawing.Point(344, 258);
             this.txtMobile.Name = "txtMobile";
-            this.txtMobile.Size = new System.Drawing.Size(395, 28);
+            this.txtMobile.Size = new System.Drawing.Size(395, 34);
             this.txtMobile.TabIndex = 4;
             // 
             // btnOk
@@ -112,6 +112,7 @@
             this.btnOk.Size = new System.Drawing.Size(167, 60);
             this.btnOk.TabIndex = 6;
             this.btnOk.Text = "OK";
+            this.toolTip1.SetToolTip(this.btnOk, "Click after U Enter all data");
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
@@ -128,7 +129,7 @@
             // 
             this.txtId.Location = new System.Drawing.Point(344, 81);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(395, 28);
+            this.txtId.Size = new System.Drawing.Size(395, 34);
             this.txtId.TabIndex = 1;
             this.toolTip1.SetToolTip(this.txtId, "Name please!");
             // 
@@ -137,7 +138,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(219, 319);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 24);
+            this.label5.Size = new System.Drawing.Size(144, 29);
             this.label5.TabIndex = 10;
             this.label5.Text = "Select Dept:";
             // 
@@ -146,7 +147,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(217, 81);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 24);
+            this.label6.Size = new System.Drawing.Size(144, 29);
             this.label6.TabIndex = 9;
             this.label6.Text = "Enter the ID:";
             // 
@@ -155,12 +156,12 @@
             this.cmdDept.FormattingEnabled = true;
             this.cmdDept.Location = new System.Drawing.Point(344, 319);
             this.cmdDept.Name = "cmdDept";
-            this.cmdDept.Size = new System.Drawing.Size(395, 30);
+            this.cmdDept.Size = new System.Drawing.Size(395, 37);
             this.cmdDept.TabIndex = 5;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(965, 517);
